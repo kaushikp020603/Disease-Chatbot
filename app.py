@@ -15,8 +15,7 @@ app = Flask(__name__)
 nlp = spacy.load('en_core_web_sm')
 
 nltk.download('wordnet')
-nltk.download('stopwords')
-nltk.download('punkt')
+
 
 # save data
 data = {"users": []}
