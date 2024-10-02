@@ -12,7 +12,7 @@ import nltk
 
 app = Flask(__name__)
 
-nlp = spacy.load('en_core_web_sm')
+
 
 
 
